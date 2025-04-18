@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iuh.fit.hotelmanagementliteclient.controller.MainController">
+   <fx:include fx:id="header" source="./Header.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="784.8" AnchorPane.topAnchor="0.0" />
+   <fx:include fx:id="menuBar" source="./SideMenu.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="784.8" AnchorPane.topAnchor="250.0" />
+   <fx:include fx:id="searchForm" source="./RoomSearchingForm.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0" />
+</AnchorPane>
