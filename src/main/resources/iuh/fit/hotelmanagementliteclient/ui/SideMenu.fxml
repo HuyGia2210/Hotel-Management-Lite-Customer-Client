@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="429.0" prefWidth="104.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iuh.fit.hotelmanagementliteclient.controller.SideMenuController">
+   <children>
+      <VBox layoutY="6.4" prefHeight="423.0" prefWidth="104.0" spacing="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="6.0">
+         <children>
+            <Button fx:id="roomSearchBtn" alignment="CENTER" mnemonicParsing="false" prefHeight="150.0" prefWidth="104.0" textAlignment="CENTER">
+               <graphic>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TRA CỨU PHÒNG" textAlignment="CENTER" wrappingWidth="60.12615966796875" />
+               </graphic>
+            </Button>
+            <Button fx:id="customerSearchBtn" mnemonicParsing="false" prefHeight="150.0" prefWidth="104.0">
+               <graphic>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TRA CỨU THÔNG TIN HÓA ĐƠN" textAlignment="CENTER" translateY="15.0" wrappingWidth="87.84954833984375" />
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
