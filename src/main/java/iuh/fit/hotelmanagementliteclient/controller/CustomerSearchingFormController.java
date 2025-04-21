@@ -1,7 +1,7 @@
 package iuh.fit.hotelmanagementliteclient.controller;
 
 //import iuh.fit.controller.features.DashboardController;
-import iuh.fit.dao.PosDAO;
+import iuh.fit.dao.daointerface.PosDAO;
 import iuh.fit.dto.InvoiceInfoDTO;
 import iuh.fit.hotelmanagementliteclient.utils.MaskUtil;
 import iuh.fit.models.Customer;

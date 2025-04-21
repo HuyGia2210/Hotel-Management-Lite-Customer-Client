@@ -1,7 +1,7 @@
 package iuh.fit.hotelmanagementliteclient.controller;
 
-import iuh.fit.dao.PosDAO;
-import iuh.fit.dao.RoomCategoryDAO;
+import iuh.fit.dao.daointerface.PosDAO;
+import iuh.fit.dao.daointerface.RoomCategoryDAO;
 import iuh.fit.models.Room;
 import iuh.fit.models.RoomCategory;
 import javafx.beans.property.SimpleDoubleProperty;
