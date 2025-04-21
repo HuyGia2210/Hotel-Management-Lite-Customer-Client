@@ -21,7 +21,6 @@ import java.util.Map;
  */
 
 @Getter
-
 public class SideMenuController {
 
     @FXML
