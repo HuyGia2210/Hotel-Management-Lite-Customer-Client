@@ -1,6 +1,6 @@
 package iuh.fit.hotelmanagementliteclient;
 
-import iuh.fit.dao.PosDAO;
+import iuh.fit.dao.daointerface.PosDAO;
 import iuh.fit.hotelmanagementliteclient.controller.MainController;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
